@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>Nota: para representar o &lt e o &gt tem de se escrever & l t (pegado) e & g t , repsetivamente </p>
+</body>
+  <h1>HTML & CSS CheetSheet</h1>
+  <h2>Css Selectors</h2>
+  <table>
+    <thead>
+        <tr>
+            <th>Tag</th>
+            <th>Tag Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="code">div <b>.</b>my-class</td>
+            <td>Descendant Selector</td>
+            <td> - will target all elements with a class of "my-class" that are a descendant of a div> element (including a direct child, children of children, etc) </td>
+        </tr>
+        <tr>
+            <td class="code">p > .another-class</td>
+            <td>Child Selector</td>
+            <td> - will target any elements with a class of "another-class" that are a direct child of a p> element  </td>
+        </tr>
+        <tr>
+            <td class="code">#unique-id + div</td>
+            <td>Adjacent Sibling Selector</td>
+            <td> - will target any  div> element that is the next sibling of an element with an id of "unique-id" </td>
+        </tr>
+        <tr>
+            <td class="code">.class-name ~ p</td>
+            <td>General Sibling Selector</td>
+            <td> - will target any  p> elements that are the next siblings of an element with a class of "class-name" </td>
+        </tr>
+
+    </tbody>
+
+  </table>
+</html>
