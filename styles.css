@@ -1,0 +1,25 @@
+*{
+    font-family: Roboto;
+  }
+    
+body {
+    background-color: rgb(25, 35, 54);
+    color: white;
+    padding: 5%;
+}
+
+h1 {
+    color: white;
+    margin: 50px 0;
+            
+}
+
+td {
+    padding: 10px;
+}
+
+.code {
+    font-family: monospace;
+    color: rgb(252, 119, 119);
+    font-size: 1.2em;
+}
